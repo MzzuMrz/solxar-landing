@@ -5,12 +5,12 @@
 html,
 body,
 * {
-  cursor: url("/a.png") 8 16, auto !important; 
+  cursor: url("/mate_cursor_normal_64x64.png") 8 16, auto !important; 
 }
 
 body:active,
 *:active {
-  cursor: url("/a-click.png") 8 16, auto !important; 
+  cursor: url("/mate_cursor_click_64x64.png") 8 16, auto !important; 
 }
 :root {
   --background: 0 0% 3.9%;
