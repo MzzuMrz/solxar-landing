@@ -1,0 +1,327 @@
+{
+  "nav": {
+    "home": "Inicio",
+    "aboutUs": "Sobre Nosotros",
+    "events": "Eventos",
+    "hackathons": "Hackathons",
+    "projects": "Proyectos",
+    "validator": "Validador",
+    "partnerships": "Partnerships",
+    "community": "Comunidad",
+    "resources": "Recursos"
+  },
+  "about": {
+    "title": "¿Qué es SOLxAR?",
+    "subtitle": "SOLxAR es el hub de innovación de Solana en Argentina, creado para conectar, impulsar y fortalecer el ecosistema blockchain en la región. Un espacio para colaborar, aprender y construir el futuro de Web3.",
+    "imageAlt": "Innovación en Solana",
+    "stats": {
+      "members": "Miembros",
+      "projects": "Proyectos",
+      "countries": "Países",
+      "funded": "Financiado"
+    },
+    "features": {
+      "community": {
+        "title": "Comunidad Activa",
+        "description": "Más de 500 builders, devs y creadores trabajando juntos."
+      },
+      "projects": {
+        "title": "Proyectos Innovadores",
+        "description": "Impulsamos proyectos que definen el futuro de Web3."
+      },
+      "reach": {
+        "title": "Alcance Regional",
+        "description": "Conectamos talento y oportunidades en toda América Latina."
+      },
+      "impact": {
+        "title": "Impacto Real",
+        "description": "Generamos crecimiento y desarrollo profesional."
+      }
+    }
+  },
+
+  "resourcesPage": {
+    "title": "Recursos",
+    "subtitle": "Explora nuestra colección de recursos para aprender, desarrollar y conectar con el ecosistema Solana. Desde documentación técnica hasta tutoriales y herramientas, aquí encontrarás todo lo que necesitas para comenzar tu viaje en Solana.",
+    "explore": "Explorar",
+    "ctaTitle": "¿Conoces algún recurso útil?",
+    "ctaSubtitle": "Si conoces algún recurso que podría ser útil para la comunidad SOLxAR, compártelo con nosotros y ayuda a otros a aprender y crecer en el ecosistema Solana.",
+    "ctaButton": "Compartir Recurso",
+    "categories": {
+      "documentation": "Documentación",
+      "development": "Desarrollo",
+      "tutorials": "Tutoriales",
+      "community": "Comunidad",
+      "articles": "Artículos",
+      "inspiration": "Inspiración"
+    },
+    "resources": {
+      "solanaDocs": {
+        "title": "Documentación de Solana",
+        "description": "Guías oficiales y documentación para desarrolladores."
+      },
+      "cookbook": {
+        "title": "Solana Cookbook",
+        "description": "Recetas y ejemplos para construir en Solana."
+      },
+      "anchor": {
+        "title": "Anchor Framework",
+        "description": "Framework para desarrollo de programas en Solana."
+      },
+      "cli": {
+        "title": "Solana CLI",
+        "description": "Herramientas de línea de comandos para Solana."
+      },
+      "web3js": {
+        "title": "Solana Web3.js",
+        "description": "Biblioteca JavaScript para interactuar con Solana."
+      },
+      "playground": {
+        "title": "Solana Playground",
+        "description": "Entorno de desarrollo en línea para Solana."
+      },
+      "university": {
+        "title": "Solana University",
+        "description": "Recursos educativos para aprender sobre Solana."
+      },
+      "soldev": {
+        "title": "Solana Bootcamp",
+        "description": "Bootcamp intensivo para desarrolladores de Solana."
+      },
+      "heavyDuty": {
+        "title": "Heavy Duty Builders Bootcamp",
+        "description": "Bootcamp completo de desarrollo en Solana con Rust."
+      },
+      "forum": {
+        "title": "Foro de Solana",
+        "description": "Foro oficial de la comunidad de Solana."
+      },
+      "discord": {
+        "title": "Discord de Solana",
+        "description": "Canal de Discord oficial de Solana."
+      },
+      "telegram": {
+        "title": "Telegram SOLxAR",
+        "description": "Grupo de Telegram de la comunidad SOLxAR."
+      },
+      "blog": {
+        "title": "Blog de Solana",
+        "description": "Artículos oficiales del equipo de Solana."
+      },
+      "daily": {
+        "title": "Solana Daily",
+        "description": "Noticias diarias sobre el ecosistema Solana."
+      },
+      "compass": {
+        "title": "Solana Compass",
+        "description": "Guías y tutoriales sobre Solana."
+      },
+      "showcase": {
+        "title": "Solana Showcase",
+        "description": "Proyectos destacados construidos en Solana."
+      },
+      "breakpoint": {
+        "title": "Solana Breakpoint",
+        "description": "Conferencia anual de Solana."
+      },
+      "hackerHouse": {
+        "title": "Solana Hacker House",
+        "description": "Eventos para desarrolladores de Solana."
+      }
+    }
+  },
+  "hero": {
+    "title": ["Liderando la", "Red de Innovación", "de Solana"],
+    "titleHighlight": "en LATAM",
+    "subtitle": "SOLxAR es donde los caminos de {word} se cruzan",
+    "subtitleWords": [
+      "builders",
+      "artistas",
+      "emprendedores",
+      "entusiastas",
+      "creadores",
+      "innovadores"
+    ],
+    "buttonPrimary": "Únete a la Comunidad",
+    "buttonSecondary": "Conoce Más"
+  },
+  "sponsors": {
+    "title": "Nuestros Patrocinadores"
+  },
+  "missionSection": {
+    "title": "Nuestra Misión",
+    "subtitle": "Construyendo el futuro de Web3 en América Latina, una conexión a la vez.",
+    "mission": {
+      "title": "Misión",
+      "description": "Acelerar la adopción de Solana en América Latina conectando builders con recursos, oportunidades y una comunidad vibrante."
+    },
+    "values": {
+      "title": "Valores",
+      "description": "Transparencia, colaboración, innovación y inclusión son los pilares que guían cada una de nuestras acciones."
+    },
+    "vision": {
+      "title": "Visión",
+      "description": "Ser el ecosistema de innovación más influyente de Web3 en América Latina, impulsando el futuro descentralizado."
+    },
+    "community": {
+      "title": "Comunidad",
+      "description": "Construimos una red diversa e inclusiva donde cada builder puede encontrar su lugar y hacer crecer sus ideas."
+    },
+    "why": {
+      "title": "¿Por qué SOLxAR?",
+      "description": "En SOLxAR creemos que América Latina tiene un potencial único para liderar la próxima ola de innovación en blockchain. Nuestra región combina talento excepcional, creatividad sin límites y una necesidad real de soluciones financieras descentralizadas. Estamos aquí para conectar estos elementos y crear un ecosistema próspero donde las ideas se conviertan en realidad."
+    }
+  },
+  "membersSection": {
+    "title": "Nuestra Comunidad",
+    "subtitle": "Conoce a los builders que están construyendo el futuro de Web3 en LATAM.",
+    "searchPlaceholder": "Buscar por nombre, rol, skill...",
+    "allSkills": "Todos",
+    "projects": "Proyectos",
+    "noResults": "No se encontraron miembros con esos criterios.",
+    "joinTitle": "¿Quieres unirte?",
+    "joinSubtitle": "Únete a nuestra comunidad de builders y forma parte del futuro de Web3 en LATAM.",
+    "joinButton": "Únete en Discord"
+  },
+  "eventsSection": {
+    "title": "Próximos Eventos",
+    "subtitle": "Únete a nuestros eventos y conecta con la comunidad Solana en Buenos Aires.",
+    "lumaLink": "Ver todos los eventos en Luma →",
+    "errorTitle": "Calendario de Eventos",
+    "errorMessage": "Estamos experimentando problemas técnicos con nuestro calendario. Por favor, visita nuestra página de Luma directamente.",
+    "errorButton": "Ver Eventos en Luma"
+  },
+  "socials": {
+    "x": "Seguir en X",
+    "telegram": "Unirse a Telegram",
+    "discord": "Unirse a Discord"
+  },
+  "stats": {
+    "projects": "Proyectos",
+    "members": "Miembros",
+    "friends": "Amigos",
+    "events": "Eventos Organizados"
+  },
+  "discord": "Unirse a Discord",
+  "hackathonSection": {
+    "upcoming": "Próximo Evento",
+    "prize": "¡Colabora para hacer crecer este pozo!",
+    "participate": "Quiero participar",
+    "support": "Quiero soportar",
+    "organizeTitle": "¿Quieres organizar un hackathon?",
+    "organizeDescription": "Si representas a una empresa o institución y estás interesado en organizar un hackathon con SOLxAR, contáctanos para discutir posibilidades de colaboración.",
+    "contact": "Contactar"
+  },
+  "communitySection": {
+    "title": "Nuestra Comunidad",
+    "members": "Miembros",
+    "join": "Únete a Nuestras Redes",
+    "stayUpdated": "Mantente al día con las últimas noticias, eventos y oportunidades en el ecosistema Solana en Argentina.",
+    "followX": "Seguir en X",
+    "joinTelegram": "Unirse al Grupo de Telegram"
+  },
+  "mission": {
+    "title": "Nuestra Misión"
+  },
+  "partnershipsSection": {
+    "becomeSponsor": "¿Quieres convertirte en sponsor de SOLxAR?",
+    "contact": "Contáctanos",
+    "validator": "Validador SOLxAR"
+  },
+  "projectsSection": {
+    "title": "¿Qué están shippeando nuestros builders?",
+    "subtitle": "Descubre los proyectos más innovadores de nuestra comunidad.",
+    "viewAll": "Ver Todos los Proyectos",
+    "oro": {
+      "title": "ORO",
+      "description": "Stablecoin basada en oro con respaldo físico 1:1 y yield anual.",
+      "status": "En Desarrollo",
+      "funding": "Pre-seed"
+    },
+    "continent": {
+      "title": "Continent",
+      "description": "Una dapp diseñada para que las comunidades cripto-nativas se conecten IRL.",
+      "status": "En Desarrollo",
+      "funding": "Pre-seed"
+    },
+    "mana": {
+      "title": "Mana",
+      "description": "Herramienta de IA para Web3 que analiza comportamientos y crea scoring para comunidades.",
+      "status": "En Desarrollo",
+      "funding": "Bootstrap"
+    }
+  },
+   "partnerships": {
+    "sectionTitle": "Partnerships",
+    "sectionSubtitle": "Colabora con SOLxAR para impulsar la adopción de Solana en Argentina y Latinoamérica...",
+    "collaborationTitle": "Formas de Colaboración",
+    "ctaTitle": "¿Interesado en colaborar con SOLxAR?",
+    "ctaSubtitle": "Contáctanos para discutir cómo podemos trabajar juntos...",
+    "ctaButton": "Proponer Colaboración",
+
+    "types": {
+      "companies": {
+        "title": "Empresas",
+        "description": "Integra Solana en tus productos o servicios...",
+        "benefits": ["Workshops técnicos", "Conexiones estratégicas", "Visibilidad de marca", "Acceso a talento"]
+      },
+      "institutions": {
+        "title": "Instituciones Educativas",
+        "description": "Colaboramos con universidades y centros educativos...",
+        "benefits": ["Material educativo", "Charlas y talleres", "Programas de pasantías", "Proyectos de investigación"]
+      },
+      "communities": {
+        "title": "Comunidades",
+        "description": "Conectamos con otras comunidades tech..."
+      }
+    },
+    
+    "options": {
+      "communitySponsorship": {
+        "title": "Patrocinio de la Comunidad",
+        "description": "Apoya a la comunidad SOLxAR y conecta con entusiastas de Solana en Argentina."
+      },
+      "eventSponsorship": {
+        "title": "Patrocinio de Eventos",
+        "description": "Patrocina meetups, hackathons y conferencias para conectar con la comunidad Solana."
+      },
+      "b2b": {
+        "title": "Expansión Regional - Colaboraciones B2B",
+        "description": "Utiliza nuestra red para expandir tu presencia en el mercado latinoamericano."
+      },
+      "devPrograms": {
+        "title": "Programas de Desarrollo",
+        "description": "Provee herramientas y recursos para desarrolladores en tecnologías blockchain y Solana."
+      }
+    }
+  },
+  "footer": {
+    "description": "La red de innovación líder de Solana en América Latina. Conectando builders con oportunidades y recursos.",
+    "newsletterTitle": "Mantente Actualizado",
+    "newsletterSubtitle": "Recibe las últimas noticias, oportunidades y recursos directamente en tu inbox.",
+    "emailPlaceholder": "Tu email",
+    "subscribeButton": "Suscribirse",
+    "copyright": "© 2024 SOLxAR. Todos los derechos reservados.",
+    "privacy": "Privacidad",
+    "terms": "Términos",
+    "cookies": "Cookies",
+    "sections": {
+      "community": {
+        "title": "Comunidad",
+        "links": { "join": "Únete", "events": "Eventos", "members": "Miembros", "mentorship": "Mentorías" }
+      },
+      "resources": {
+        "title": "Recursos",
+        "links": { "documentation": "Documentación", "tutorials": "Tutoriales", "tools": "Herramientas", "api": "API" }
+      },
+      "projects": {
+        "title": "Proyectos",
+        "links": { "explore": "Explorar", "submit": "Enviar", "funding": "Financiamiento", "incubator": "Incubadora" }
+      },
+      "company": {
+        "title": "Empresa",
+        "links": { "about": "Acerca de", "team": "Equipo", "careers": "Carreras", "contact": "Contacto" }
+      }
+    }
+  }
+}

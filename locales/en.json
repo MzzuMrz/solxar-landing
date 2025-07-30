@@ -1,0 +1,326 @@
+{
+  "nav": {
+    "home": "Home",
+    "aboutUs": "About Us",
+    "events": "Events",
+    "hackathons": "Hackathons",
+    "projects": "Projects",
+    "validator": "Validator",
+    "partnerships": "Partnerships",
+    "community": "Community",
+    "resources": "Resources"
+  },
+  "hero": {
+    "title": ["Leading Solana's", "Innovation", "Network"],
+    "titleHighlight": "in LATAM",
+    "subtitle": "SOLxAR is where the paths of {word} cross",
+    "subtitleWords": [
+      "builders",
+      "artists",
+      "entrepreneurs",
+      "enthusiasts",
+      "creators",
+      "innovators"
+    ],
+    "buttonPrimary": "Join the Community",
+    "buttonSecondary": "Learn More"
+  },
+  "resourcesPage": {
+    "title": "Resources",
+    "subtitle": "Explore our collection of resources to learn, develop, and connect with the Solana ecosystem. From technical documentation to tutorials and tools, here you'll find everything you need to start your journey in Solana.",
+    "explore": "Explore",
+    "ctaTitle": "Know any useful resources?",
+    "ctaSubtitle": "If you know of any resource that could be useful for the SOLxAR community, share it with us and help others learn and grow in the Solana ecosystem.",
+    "ctaButton": "Share Resource",
+    "categories": {
+      "documentation": "Documentation",
+      "development": "Development",
+      "tutorials": "Tutorials",
+      "community": "Community",
+      "articles": "Articles",
+      "inspiration": "Inspiration"
+    },
+    "resources": {
+      "solanaDocs": {
+        "title": "Solana Documentation",
+        "description": "Official guides and documentation for developers."
+      },
+      "cookbook": {
+        "title": "Solana Cookbook",
+        "description": "Recipes and examples for building on Solana."
+      },
+      "anchor": {
+        "title": "Anchor Framework",
+        "description": "Framework for Solana program development."
+      },
+      "cli": {
+        "title": "Solana CLI",
+        "description": "Command line tools for Solana."
+      },
+      "web3js": {
+        "title": "Solana Web3.js",
+        "description": "JavaScript library for interacting with Solana."
+      },
+      "playground": {
+        "title": "Solana Playground",
+        "description": "Online development environment for Solana."
+      },
+      "university": {
+        "title": "Solana University",
+        "description": "Educational resources to learn about Solana."
+      },
+      "soldev": {
+        "title": "Solana Bootcamp",
+        "description": "Intensive bootcamp for Solana developers."
+      },
+      "heavyDuty": {
+        "title": "Heavy Duty Builders Bootcamp",
+        "description": "Complete Solana development bootcamp with Rust."
+      },
+      "forum": {
+        "title": "Solana Forum",
+        "description": "Official Solana community forum."
+      },
+      "discord": {
+        "title": "Solana Discord",
+        "description": "Official Solana Discord channel."
+      },
+      "telegram": {
+        "title": "SOLxAR Telegram",
+        "description": "SOLxAR community Telegram group."
+      },
+      "blog": {
+        "title": "Solana Blog",
+        "description": "Official articles from the Solana team."
+      },
+      "daily": {
+        "title": "Solana Daily",
+        "description": "Daily news about the Solana ecosystem."
+      },
+      "compass": {
+        "title": "Solana Compass",
+        "description": "Guides and tutorials about Solana."
+      },
+      "showcase": {
+        "title": "Solana Showcase",
+        "description": "Featured projects built on Solana."
+      },
+      "breakpoint": {
+        "title": "Solana Breakpoint",
+        "description": "Annual Solana conference."
+      },
+      "hackerHouse": {
+        "title": "Solana Hacker House",
+        "description": "Events for Solana developers."
+      }
+    }
+  },
+  "about": {
+    "title": "What is SOLxAR?",
+    "subtitle": "SOLxAR is Solana's innovation hub in Argentina, created to connect, boost, and strengthen the region's blockchain ecosystem. A space to collaborate, learn, and build the future of Web3.",
+    "imageAlt": "Innovation in Solana",
+    "stats": {
+      "members": "Members",
+      "projects": "Projects",
+      "countries": "Countries",
+      "funded": "Funded"
+    },
+    "features": {
+      "community": {
+        "title": "Active Community",
+        "description": "Over 500 builders, devs, and creators working together."
+      },
+      "projects": {
+        "title": "Innovative Projects",
+        "description": "We drive projects that are defining the future of Web3."
+      },
+      "reach": {
+        "title": "Regional Reach",
+        "description": "We connect talent and opportunities across Latin America."
+      },
+      "impact": {
+        "title": "Real Impact",
+        "description": "We generate real growth and professional development."
+      }
+    }
+  },
+  "sponsors": {
+    "title": "Our Supporters"
+  },
+  "missionSection": {
+    "title": "Our Mission",
+    "subtitle": "Building the future of Web3 in Latin America, one connection at a time.",
+    "mission": {
+      "title": "Mission",
+      "description": "Accelerate Solana adoption in Latin America by connecting builders with resources, opportunities and a vibrant community."
+    },
+    "values": {
+      "title": "Values",
+      "description": "Transparency, collaboration, innovation and inclusion are the pillars that guide each of our actions."
+    },
+    "vision": {
+      "title": "Vision",
+      "description": "To be the most influential Web3 innovation ecosystem in Latin America, driving the decentralized future."
+    },
+    "community": {
+      "title": "Community",
+      "description": "We build a diverse and inclusive network where every builder can find their place and grow their ideas."
+    },
+    "why": {
+      "title": "Why SOLxAR?",
+      "description": "At SOLxAR we believe that Latin America has unique potential to lead the next wave of blockchain innovation. Our region combines exceptional talent, limitless creativity and a real need for decentralized financial solutions. We are here to connect these elements and create a thriving ecosystem where ideas become reality."
+    }
+  },
+  "eventsSection": {
+    "title": "Upcoming Events",
+    "subtitle": "Join our events and connect with the Solana community in Buenos Aires.",
+    "lumaLink": "View all events on Luma →",
+    "errorTitle": "Events Calendar",
+    "errorMessage": "We are experiencing technical issues with our calendar. Please visit our Luma page directly.",
+    "errorButton": "View Events on Luma"
+  },
+  "stats": {
+    "projects": "Projects",
+    "members": "Members",
+    "friends": "Friends",
+    "events": "Events Organized"
+  },
+  "socials": {
+    "x": "Follow on X",
+    "telegram": "Join Telegram",
+    "discord": "Join Discord"
+  },
+  "hackathonSection": {
+    "upcoming": "Upcoming Event",
+    "prize": "Collaborate to grow this prize pool!",
+    "participate": "I want to participate",
+    "support": "I want to support",
+    "organizeTitle": "Want to organize a hackathon?",
+    "organizeDescription": "If you represent a company or institution and are interested in organizing a hackathon with SOLxAR, contact us to discuss collaboration possibilities.",
+    "contact": "Contact"
+  },
+  "communitySection": {
+    "title": "Our Community",
+    "members": "Members",
+    "join": "Join Our Networks",
+    "stayUpdated": "Stay up to date with the latest news, events, and opportunities in the Solana ecosystem in Argentina.",
+    "followX": "Follow on X",
+    "joinTelegram": "Join Telegram Group"
+  },
+  "membersSection": {
+    "title": "Our Community",
+    "subtitle": "Meet the builders who are building the future of Web3 in LATAM.",
+    "searchPlaceholder": "Search by name, role, skill...",
+    "allSkills": "All",
+    "projects": "Projects",
+    "noResults": "No members found with those criteria.",
+    "joinTitle": "Want to join?",
+    "joinSubtitle": "Join our community of builders and be part of the future of Web3 in LATAM.",
+    "joinButton": "Join on Discord"
+  },
+  "mission": {
+    "title": "Our Mission"
+  },
+  "partnershipsSection": {
+    "becomeSponsor": "Want to become a SOLxAR sponsor?",
+    "contact": "Contact Us",
+    "validator": "SOLxAR Validator"
+  },
+  "projectsSection": {
+    "title": "What Are Our Builders Shipping?",
+    "subtitle": "Discover the most innovative projects from our community.",
+    "viewAll": "View All Projects",
+    "oro": {
+      "title": "ORO",
+      "description": "Gold-backed stablecoin with 1:1 physical backing and annual yield.",
+      "status": "In Development",
+      "funding": "Pre-seed"
+    },
+    "continent": {
+      "title": "Continent",
+      "description": "A dapp designed for crypto-native communities to connect IRL.",
+      "status": "In Development",
+      "funding": "Pre-seed"
+    },
+    "mana": {
+      "title": "Mana",
+      "description": "AI tool for Web3 that analyzes behaviors and creates scoring for communities.",
+      "status": "In Development",
+      "funding": "Bootstrap"
+    }
+  },
+  "partnerships": {
+    "sectionTitle": "Partnerships",
+    "sectionSubtitle": "Partner with SOLxAR to accelerate Solana's adoption in Argentina and Latin America. We offer bespoke collaboration opportunities designed to align with your unique goals and vision, ensuring a personalized and impactful approach. Together, we can build a vibrant, innovative ecosystem that drives meaningful growth for Solana in the region.",
+    "collaborationTitle": "Collaboration Options",
+    "ctaTitle": "Interested in collaborating with SOLxAR?",
+    "ctaSubtitle": "Contact us to discuss how we can work together to boost the Solana ecosystem in Argentina and Latin America.",
+    "ctaButton": "Propose Collaboration",
+
+    "types": {
+      "companies": {
+        "title": "Companies",
+        "description": "Integrate Solana into your products or services. We offer technical support, ecosystem connections, and visibility at our events.",
+        "benefits": ["Technical workshops", "Strategic connections", "Brand visibility", "Access to talent"]
+      },
+      "institutions": {
+        "title": "Educational Institutions",
+        "description": "We collaborate with universities and educational centers to introduce blockchain and Solana in academic programs.",
+        "benefits": ["Educational material", "Talks and workshops", "Internship programs", "Research projects"]
+      },
+      "communities": {
+        "title": "Communities",
+        "description": "We connect with other tech communities to create synergies and amplify the impact of our initiatives."
+      }
+    },
+    
+    "options": {
+      "communitySponsorship": {
+        "title": "Community Sponsorship",
+        "description": "Support the SOLxAR community and connect with Solana enthusiasts in Argentina."
+      },
+      "eventSponsorship": {
+        "title": "Event Sponsorship",
+        "description": "Sponsor meetups, hackathons, and conferences to connect with the Solana community in Argentina."
+      },
+      "b2b": {
+        "title": "Regional Expansion - B2B Collaborations",
+        "description": "Use our network to expand your presence in the Latin American market."
+      },
+      "devPrograms": {
+        "title": "Development Programs",
+        "description": "Provide tools and resources for developers in blockchain and Solana technologies."
+      }
+    }
+  },
+  "footer": {
+    "description": "Solana's leading innovation network in Latin America. Connecting builders with opportunities and resources.",
+    "newsletterTitle": "Stay Updated",
+    "newsletterSubtitle": "Get the latest news, opportunities, and resources directly in your inbox.",
+    "emailPlaceholder": "Your email",
+    "subscribeButton": "Subscribe",
+    "copyright": "© 2024 SOLxAR. All rights reserved.",
+    "privacy": "Privacy",
+    "terms": "Terms",
+    "cookies": "Cookies",
+    "sections": {
+      "community": {
+        "title": "Community",
+        "links": { "join": "Join", "events": "Events", "members": "Members", "mentorship": "Mentorship" }
+      },
+      "resources": {
+        "title": "Resources",
+        "links": { "documentation": "Documentation", "tutorials": "Tutorials", "tools": "Tools", "api": "API" }
+      },
+      "projects": {
+        "title": "Projects",
+        "links": { "explore": "Explore", "submit": "Submit", "funding": "Funding", "incubator": "Incubator" }
+      },
+      "company": {
+        "title": "Company",
+        "links": { "about": "About", "team": "Team", "careers": "Careers", "contact": "Contact" }
+      }
+    }
+  }
+
+}
