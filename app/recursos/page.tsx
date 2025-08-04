@@ -1,7 +1,5 @@
 "use client"
 
-import { Header } from "@/components/header"
-import { Footer } from "@/components/footer"
 import Link from "next/link"
 import { Button } from "@/components/ui/button"
 import { ExternalLink } from "lucide-react"
@@ -32,7 +30,6 @@ export default function ResourcesPage() {
     <main className="min-h-screen">
       <div className="grid-background"></div>
       <CursorEffect />
-      <Header />
 
       <section className="pt-32 pb-16">
         <div className="container mx-auto px-4">
@@ -67,8 +64,6 @@ export default function ResourcesPage() {
           </div>
         </div>
       </section>
-
-      <Footer />
     </main>
   )
 }

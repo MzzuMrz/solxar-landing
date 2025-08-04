@@ -3,8 +3,7 @@
 import type React from "react"
 
 import { useState, useEffect, useMemo } from "react"
-import { Header } from "@/components/header"
-import { Footer } from "@/components/footer"
+
 import Link from "next/link"
 import Image from "next/image"
 import { Button } from "@/components/ui/button"
@@ -895,7 +894,6 @@ export function ProjectsPage() {
         <div className="grid-background"></div>
         <CursorEffect />
 
-        <Header />
 
         <section className="pt-32 pb-16">
           <div className="container mx-auto px-4">
@@ -1228,7 +1226,6 @@ export function ProjectsPage() {
           </div>
         </section>
 
-        <Footer />
         <ContactModal />
         <SubmitProjectModal />
       </main>

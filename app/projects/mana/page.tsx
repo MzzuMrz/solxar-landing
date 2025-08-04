@@ -1,7 +1,5 @@
 "use client"
 
-import { Header } from "@/components/header"
-import { Footer } from "@/components/footer"
 import { Button } from "@/components/ui/button"
 import { LanguageProvider } from "@/context/language-context"
 import Link from "next/link"
@@ -12,7 +10,6 @@ export default function ManaPage() {
   return (
     <LanguageProvider>
       <main className="min-h-screen">
-        <Header />
 
         {/* Hero Section */}
         <section className="pt-32 pb-20 relative overflow-hidden">
@@ -278,8 +275,6 @@ export default function ManaPage() {
             </div>
           </div>
         </section>
-
-        <Footer />
       </main>
     </LanguageProvider>
   )

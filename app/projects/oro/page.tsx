@@ -1,7 +1,5 @@
 "use client"
 
-import { Header } from "@/components/header"
-import { Footer } from "@/components/footer"
 import { Button } from "@/components/ui/button"
 import { CursorEffect } from "@/components/cursor-effect"
 import { LanguageProvider } from "@/context/language-context"
@@ -15,7 +13,6 @@ export default function OroPage() {
       <SmoothScrollProvider>
         <main className="min-h-screen bg-[#002118]">
           <CursorEffect />
-          <Header />
 
           {/* Hero Section */}
           <section className="pt-32 pb-20 relative overflow-hidden bg-[#002118]">
@@ -284,8 +281,6 @@ export default function OroPage() {
               </div>
             </div>
           </section>
-
-          <Footer />
         </main>
       </SmoothScrollProvider>
     </LanguageProvider>

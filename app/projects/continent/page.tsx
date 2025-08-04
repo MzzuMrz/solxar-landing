@@ -1,7 +1,6 @@
 "use client"
 
-import { Header } from "@/components/header"
-import { Footer } from "@/components/footer"
+
 import { Button } from "@/components/ui/button"
 import { CursorEffect } from "@/components/cursor-effect"
 import { LanguageProvider } from "@/context/language-context"
@@ -16,7 +15,6 @@ export default function ContinentPage() {
       <SmoothScrollProvider>
         <main className="min-h-screen">
           <CursorEffect />
-          <Header />
 
           {/* Hero Section */}
           <section className="pt-32 pb-20 relative overflow-hidden">
@@ -237,7 +235,6 @@ export default function ContinentPage() {
             </div>
           </section>
 
-          <Footer />
         </main>
       </SmoothScrollProvider>
     </LanguageProvider>

@@ -1,8 +1,6 @@
 "use client"
 
-import { Header } from "@/components/header"
 import { ValidatorSection } from "@/components/validator-section"
-import { Footer } from "@/components/footer"
 import { CursorEffect } from "@/components/cursor-effect"
 import { LanguageProvider } from "@/context/language-context"
 import { SmoothScrollProvider } from "@/components/smooth-scroll-provider"
@@ -69,7 +67,6 @@ function ValidatorPageContent() {
   return (
     <main className="min-h-screen">
       <CursorEffect />
-      <Header />
 
       {/* Breadcrumb navigation */}
       <section className="pt-24 pb-4 relative overflow-hidden">
@@ -178,8 +175,6 @@ function ValidatorPageContent() {
           </div>
         </div>
       </section>
-
-      <Footer />
     </main>
   )
 }

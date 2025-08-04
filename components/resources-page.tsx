@@ -1,13 +1,12 @@
 "use client"
 
-import { Header } from "@/components/header"
-import { Footer } from "@/components/footer"
 import Link from "next/link"
 import { Button } from "@/components/ui/button"
 import { ExternalLink, BookOpen, Code, Video, FileText, Users, Lightbulb } from "lucide-react"
 import { useLanguage } from "@/context/language-context"
 import { CursorEffect } from "@/components/cursor-effect"
 import { useMemo, useState, useEffect } from "react"
+
 
 // Asegurar que la página de recursos actualice correctamente el idioma
 export function ResourcesPage() {
@@ -185,16 +184,14 @@ export function ResourcesPage() {
       },
     ],
     [language],
-  ) // Solo recalcular cuando cambie el idioma
+  ) 
 
-  // Añadir la key al componente principal para forzar el re-render
   return (
     <main className="min-h-screen" key={key}>
-      {/* Fondo cuadriculado */}
       <div className="grid-background"></div>
 
       <CursorEffect />
-      <Header />
+
 
       <section className="pt-32 pb-16">
         <div className="container mx-auto px-4">
@@ -256,7 +253,6 @@ export function ResourcesPage() {
         </div>
       </section>
 
-      <Footer />
     </main>
   )
 }

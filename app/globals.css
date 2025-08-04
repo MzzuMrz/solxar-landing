@@ -322,7 +322,7 @@ body:active,
   display: flex;
   justify-content: center;
   align-items: center;
-  position: fixed;
+  position: relative;
   top: 0;
   left: 0;
   right: 0;
@@ -1032,4 +1032,23 @@ body:active,
   text-align: left;
   margin-left: 0;
   margin-right: 0;
+}
+
+.typing-cursor {
+  display: inline-block;
+  width: 3px;
+  height: 1em; /* Se ajusta a la altura del texto del subtítulo */
+  background: linear-gradient(135deg, var(--solana-green), var(--solana-purple));
+  margin-left: 8px;
+  animation: blink 0.8s infinite;
+  vertical-align: middle; /* Alinea el cursor con el texto */
+}
+
+@keyframes blink {
+  0%, 100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
 }

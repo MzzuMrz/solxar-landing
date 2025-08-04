@@ -9,7 +9,6 @@ import { CommunitySection } from "@/components/community-section"
 import { CommunityMembers } from "@/components/community-members"
 import { TrendingProjects } from "@/components/trending-projects"
 import { SponsorsCarousel } from "@/components/sponsors-carousel"
-import { ValidatorSection } from "@/components/validator-section"
 import { BestSolanaProducts } from "@/components/best-solana-products"
 import { PartnershipsSection } from "@/components/partnerships-section"
 
@@ -24,7 +23,6 @@ export default function Home() {
       <CommunitySection />
       <CommunityMembers />
       <TrendingProjects />
-      <ValidatorSection />
       <PartnershipsSection />
     </>
   )
