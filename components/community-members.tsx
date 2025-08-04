@@ -31,19 +31,19 @@ export function CommunityMembers() {
         <p className="superteam-section-subtitle">{t("membersSection.subtitle")}</p>
       </div>
 
-      <div className="flex flex-col md:flex-row gap-4 mb-8 max-w-4xl mx-auto">
+      {/* <div className="flex flex-col md:flex-row gap-4 mb-8 max-w-4xl mx-auto">
         <div className="relative flex-1">
           <Search className="absolute left-3.5 top-1/2 -translate-y-1/2 text-gray-400" size={20} />
           <Input type="text" placeholder={t("membersSection.searchPlaceholder")} value={searchTerm} onChange={e => setSearchTerm(e.target.value)} className="pl-12 bg-black/40 border-white/10 h-12" />
         </div>
-      </div>
+      </div> */}
       
-      <div className="flex gap-2 flex-wrap justify-center mb-12">
+      {/* <div className="flex gap-2 flex-wrap justify-center mb-12">
         <button onClick={() => setSelectedSkill(null)} className={`filter-btn ${!selectedSkill ? 'active' : ''}`}>{t("membersSection.allSkills")}</button>
         {allSkills.map(skill => (
           <button key={skill} onClick={() => setSelectedSkill(skill === selectedSkill ? null : skill)} className={`filter-btn ${selectedSkill === skill ? 'active' : ''}`} style={selectedSkill === skill ? { '--skill-color-rgb': skillColors[skill] || "153, 69, 255", color: '#fff' } as CSSProperties : {}}>{skill}</button>
         ))}
-      </div>
+      </div> */}
 
       <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
         {filteredMembers.map(member => <MemberCard key={member.id} member={member} />)}

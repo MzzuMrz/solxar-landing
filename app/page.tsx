@@ -22,7 +22,7 @@ export default function Home() {
       <SponsorsCarousel />
       <CommunitySection />
       <CommunityMembers />
-      <TrendingProjects />
+      {/* <TrendingProjects /> */}
       <PartnershipsSection />
     </>
   )

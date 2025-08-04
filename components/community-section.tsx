@@ -3,7 +3,7 @@
 import { useLanguage } from "@/context/language-context"
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
-import type { CSSProperties, SVGProps } from "react"
+import type { SVGProps } from "react"
 
 const IconX = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" {...props}><path d="M22 4s-.7 2.1-2 3.4c1.6 10-9.4 17.3-18 11.6 2.2.1 4.4-.6 6-2C3 15.5.5 9.6 3 5c2.2 2.6 5.6 4.1 9 4-.9-4.2 4-6.6 7-3.8 1.1 0 3-1.2 3-1.2z"></path></svg>
 const IconTelegram = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" {...props}><path d="M21.5 4.5L2.5 12.5L11.5 14.5L14.5 21.5L21.5 4.5Z"></path></svg>
@@ -29,11 +29,11 @@ export function CommunitySection({ id }: { id?: string }) {
     <section id={id} className="py-12 relative">
       <div className="w-full bg-black/20 border-y border-white/10 py-12">
         <div className="container mx-auto px-4">
-          <div className="max-w-6xl mx-auto text-center mb-12">
+          {/* <div className="max-w-6xl mx-auto text-center mb-12">
             <h2 className="text-3xl md:text-4xl font-bold solana-text-gradient">{t("communitySection.title")}</h2>
-          </div>
+          </div> */}
 
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-12">
+          {/* <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-12">
             {statsData.map((stat, index) => (
               <div
                 key={stat.key}
@@ -44,7 +44,7 @@ export function CommunitySection({ id }: { id?: string }) {
                 <div className="text-white/70 text-sm md:text-base">{t(`communitySection.stats.${stat.key}`)}</div>
               </div>
             ))}
-          </div>
+          </div> */}
 
           <div className="bg-black/40 p-8 rounded-lg border border-white/10 max-w-xl mx-auto">
             <h3 className="text-xl font-semibold mb-4 text-center">{t("communitySection.join")}</h3>
