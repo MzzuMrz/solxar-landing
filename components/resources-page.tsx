@@ -235,20 +235,7 @@ export function ResourcesPage() {
               ))}
             </div>
 
-            {/* Contribute resources CTA */}
-            <div className="mt-16 text-center p-8 backdrop-blur-md bg-black/60 rounded-xl border border-white/10">
-              <h2 className="text-2xl font-bold mb-4">
-                {language === "es" ? "¿Conoces algún recurso útil?" : "Know any useful resources?"}
-              </h2>
-              <p className="text-white/70 mb-6 max-w-2xl mx-auto">
-                {language === "es"
-                  ? "Si conoces algún recurso que podría ser útil para la comunidad SOLxAR, compártelo con nosotros y ayuda a otros a aprender y crecer en el ecosistema Solana."
-                  : "If you know of any resource that could be useful for the SOLxAR community, share it with us and help others learn and grow in the Solana ecosystem."}
-              </p>
-              <Button variant="solana" size="lg">
-                {language === "es" ? "Compartir Recurso" : "Share Resource"}
-              </Button>
-            </div>
+         
           </div>
         </div>
       </section>

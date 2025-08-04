@@ -191,60 +191,7 @@ export function ProjectsPage() {
 
   const projects = useMemo(
     () => [
-      {
-        id: 1,
-        title: "ORO",
-        description:
-          language === "es"
-            ? "Stablecoin basada en oro con respaldo físico 1:1 con yield anual. Transformando la propiedad del oro para hacerlo más valioso, poderoso y accesible."
-            : "Gold-backed stablecoin with 1:1 physical backing and annual yield. Transforming gold ownership to make it more valuable, powerful, and accessible.",
-        image:
-          "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Screenshot%202025-03-12%20at%2012.19.05%E2%80%AFAM-XHQTVkNbH0fykfo9LsUVQ61SEJNwAW.png",
-        category: language === "es" ? "DeFi" : "DeFi",
-        tags: language === "es" ? ["Stablecoin", "Oro", "Yield"] : ["Stablecoin", "Gold", "Yield"],
-        status: language === "es" ? "Desarrollo" : "Development",
-        funding: "Pre-seed",
-        hasMVP: true,
-        seekingFunding: true,
-        link: "/projects/oro",
-        contact: {
-          name: language === "es" ? "Equipo ORO" : "ORO Team",
-          avatar: "/placeholder.svg?height=80&width=80",
-          social: {
-            x: "https://x.com/oro_network",
-            telegram: "https://t.me/oro_network",
-            discord: "oro_network",
-            website: "https://oro.network",
-          },
-        },
-      },
-      {
-        id: 2,
-        title: "Continent",
-        description:
-          language === "es"
-            ? "Una dapp diseñada para que las comunidades cripto-nativas se conecten IRL."
-            : "A dapp designed for crypto-native communities to connect IRL.",
-        image:
-          "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/continent.jpg-mIYcq2KNjdMGVUQwGN3jrTDbI0ju1r.jpeg",
-        category: language === "es" ? "Social" : "Social",
-        tags: language === "es" ? ["Social", "Web3", "Comunidad"] : ["Social", "Web3", "Community"],
-        status: language === "es" ? "Desarrollo" : "Development",
-        funding: "Pre-seed",
-        hasMVP: true,
-        seekingFunding: true,
-        link: "/projects/continent",
-        contact: {
-          name: language === "es" ? "Equipo Continent" : "Continent Team",
-          avatar: "/placeholder.svg?height=80&width=80",
-          social: {
-            x: "https://x.com/continent",
-            telegram: "https://t.me/continent",
-            discord: "continent",
-            website: "https://continent.xyz",
-          },
-        },
-      },
+      
       {
         id: 3,
         title: "Mana",
@@ -272,58 +219,8 @@ export function ProjectsPage() {
           },
         },
       },
-      {
-        id: 4,
-        title: "bioVault",
-        description:
-          language === "es"
-            ? "Solución de identidad digital segura basada en biometría para el ecosistema Solana."
-            : "Secure digital identity solution based on biometrics for the Solana ecosystem.",
-        image:
-          "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Screenshot%202025-03-12%20at%2012.22.26%E2%80%AFAM-nhOeonZHSMrDuP2ssft89uzlNc62Gn.png",
-        category: language === "es" ? "Infraestructura" : "Infrastructure",
-        tags: language === "es" ? ["Identidad", "Biometría", "Seguridad"] : ["Identity", "Biometrics", "Security"],
-        status: language === "es" ? "Idea" : "Idea",
-        funding: "Bootstrap",
-        hasMVP: false,
-        seekingFunding: true,
-        contact: {
-          name: language === "es" ? "Equipo bioVault" : "bioVault Team",
-          avatar: "/placeholder.svg?height=80&width=80",
-          social: {
-            x: "https://x.com/biovault",
-            telegram: "https://t.me/biovault",
-            discord: "biovault",
-            website: "https://biovault.io",
-          },
-        },
-      },
-      {
-        id: 5,
-        title: "Tuneport",
-        description:
-          language === "es"
-            ? "Plataforma de música para promover la interacción entre artistas, fans, coleccionistas y sellos discográficos. Revolucionando el streaming musical con remixes en cadena y colaboración sin límites."
-            : "Music platform to promote interaction between artists, fans, collectors, and record labels. Revolutionizing music streaming with on-chain remixes and limitless collaboration.",
-        image:
-          "https://sjc.microlink.io/bGQV3H9fjyd7ANbFzEHI-qDcbO8-a8RXAlh19-OqTpXow9SqhwCMtLmHPQE6gRilZnmemMYgpBoyoWP5LTVFog.jpeg",
-        category: language === "es" ? "Música" : "Music",
-        tags: language === "es" ? ["Música", "NFT", "Streaming"] : ["Music", "NFT", "Streaming"],
-        status: language === "es" ? "Desarrollo" : "Development",
-        funding: "Seed",
-        hasMVP: true,
-        seekingFunding: true,
-        contact: {
-          name: "Fernando López",
-          avatar: "/placeholder.svg?height=80&width=80",
-          social: {
-            x: "https://x.com/beor22",
-            telegram: "https://t.me/tuneportxyz",
-            discord: "tuneport",
-            website: "https://www.tuneport.xyz/",
-          },
-        },
-      },
+      
+      
       {
         id: 6,
         title: "El Vacío Podcast",

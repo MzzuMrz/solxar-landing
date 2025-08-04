@@ -56,11 +56,7 @@ export default function ResourcesPage() {
               })}
             </div>
 
-            <div className="mt-24 text-center p-8 backdrop-blur-md bg-black/60 rounded-xl border border-white/10">
-              <h2 className="text-2xl font-bold mb-4">{t("resourcesPage.ctaTitle")}</h2>
-              <p className="text-white/70 mb-6 max-w-2xl mx-auto">{t("resourcesPage.ctaSubtitle")}</p>
-              <Button variant="solana" size="lg">{t("resourcesPage.ctaButton")}</Button>
-            </div>
+
           </div>
         </div>
       </section>

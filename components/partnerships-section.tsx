@@ -101,19 +101,7 @@ export function PartnershipsSection({ id }: PartnershipsSectionProps) {
             })}
           </div>
 
-          <div className="text-center p-8 backdrop-blur-md bg-black/60 rounded-xl border border-white/10">
-            <h3 className="text-xl font-semibold mb-4">
-              {t("partnerships.ctaTitle")}
-            </h3>
-            <p className="text-white/70 mb-6 max-w-2xl mx-auto">
-              {t("partnerships.ctaSubtitle")}
-            </p>
-            <Button asChild variant="solana" size="lg">
-              <Link href="mailto:b2b@solx.ar">
-                {t("partnerships.ctaButton")}
-              </Link>
-            </Button>
-          </div>
+          
         </div>
       </div>
     </section>

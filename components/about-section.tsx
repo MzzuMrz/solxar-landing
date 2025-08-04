@@ -4,12 +4,6 @@ import { useLanguage } from "@/context/language-context"
 import { Users, Rocket, Globe, Zap } from "lucide-react"
 import type { CSSProperties } from "react"
 
-const statsData = [
-  { value: "500+", key: "members" },
-  { value: "50+", key: "projects" },
-  { value: "15", key: "countries" },
-  { value: "$2M+", key: "funded" },
-]
 
 const featureKeys = ["community", "projects", "reach", "impact"]
 const featureIcons: { [key: string]: React.ElementType } = { community: Users, projects: Rocket, reach: Globe, impact: Zap }
@@ -24,15 +18,6 @@ export function AboutSection() {
         <div className="about-fused-content">
           <h2 className="superteam-section-title text-left mb-6">{t("about.title")}</h2>
           <p className="superteam-section-subtitle text-left !max-w-full mb-10">{t("about.subtitle")}</p>
-          
-          <div className="grid grid-cols-2 gap-x-6 gap-y-8">
-            {statsData.map((stat, index) => (
-              <div key={stat.key} className="fused-stat" style={{ "--stat-delay": `${index * 0.1}s` } as CSSProperties}>
-                <div className="text-4xl font-bold solana-text-gradient mb-1">{stat.value}</div>
-                <div className="text-white/60 uppercase tracking-wider text-sm">{t(`about.stats.${stat.key}`)}</div>
-              </div>
-            ))}
-          </div>
         </div>
 
         {/* Columna Derecha: Features */}
