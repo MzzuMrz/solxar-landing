@@ -108,7 +108,7 @@ export function Header() {
         <Link 
           href="/" 
           onClick={(e) => { e.preventDefault(); handleScrollClick("top") }} 
-          className="superteam-logo-container" 
+          className="superteam-logo-container hidden md:block" 
           onMouseEnter={() => setShibaVisible(true)}
         >
           <Image src="/images/solxar-logo.png" alt="Logo SOLxAR" width={120} height={40} className="superteam-logo-image" priority />
@@ -117,7 +117,7 @@ export function Header() {
             alt="Yoshi Pixel Animation" 
             width={90} 
             height={90} 
-            className={`shiba-from-line ${shibaVisible ? 'visible' : ''}`} 
+            className={`shiba-from-line ${shibaVisible && !isMenuOpen ? 'visible' : ''}`} 
             aria-hidden="true" 
           />
         </Link>
@@ -133,7 +133,7 @@ export function Header() {
       </nav>
 
       <div className={`mobile-menu ${isMenuOpen ? 'open' : ''}`}>
-        <nav className="flex flex-col items-center gap-y-6 pt-8">
+        <nav className="flex flex-col items-center gap-y-6 pt-8 w-full">
           {renderNavLinks(true)}
           <LanguageSwitcher />
         </nav>
