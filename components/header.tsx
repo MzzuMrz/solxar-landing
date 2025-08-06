@@ -105,9 +105,9 @@ export function Header() {
   return (
     <header className="superteam-header logo-shiba-hover">
       <nav className="superteam-nav">
+        {/* CORRECCIÓN: Se eliminó el `onClick` de este Link */}
         <Link 
           href="/" 
-          onClick={(e) => { e.preventDefault(); handleScrollClick("top") }} 
           className="superteam-logo-container hidden md:block" 
           onMouseEnter={() => setShibaVisible(true)}
         >

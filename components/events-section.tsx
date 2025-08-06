@@ -34,7 +34,12 @@ const EventCard = ({ event }: { event: Event }) => {
   }).format(eventDate);
 
   return (
-    <div className="bg-black/30 border border-white/10 rounded-lg overflow-hidden flex flex-row mb-6 backdrop-blur-sm transition-all hover:border-white/20 hover:scale-[1.02]">
+    <a
+      href={event.eventUrl}
+      target="_blank"
+      rel="noopener noreferrer"
+      className="block bg-black/30 border border-white/10 rounded-lg overflow-hidden flex flex-row mb-6 backdrop-blur-sm transition-all hover:border-white/20 hover:scale-[1.02] cursor-pointer"
+    >
       <div className="relative w-32 md:w-44 aspect-square flex-shrink-0">
         <Image
           src={event.imageUrl}
@@ -60,16 +65,11 @@ const EventCard = ({ event }: { event: Event }) => {
           </p>
         </div>
         <p className="text-sm text-white/80 mb-4 flex-grow hidden sm:block">{event.description}</p>
-        <a
-          href={event.eventUrl}
-          target="_blank"
-          rel="noopener noreferrer"
-          className="mt-auto px-4 py-1.5 md:px-5 md:py-2 bg-primary text-primary-foreground rounded-md hover:bg-primary/90 transition-colors font-semibold w-fit text-sm"
-        >
-          Ver Evento
-        </a>
+        <div className="mt-auto px-4 py-1.5 md:px-5 md:py-2 bg-primary text-primary-foreground rounded-md hover:bg-primary/90 transition-colors font-semibold w-fit text-sm">
+          Únete
+        </div>
       </div>
-    </div>
+    </a>
   );
 };
 
